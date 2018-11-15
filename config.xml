@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="https://app.catswords.com/tizen" version="1.0.0" viewmodes="maximized">
+    <access origin="https://exts.kr/" subdomains="true"/>
+    <access origin="https://catswords.com/" subdomains="true"/>
+    <tizen:application id="YelAHWecS7.CatswordsApp" package="YelAHWecS7" required_version="3.0"/>
+    <author href="https://exts.kr" email="gnh1201@gmail.com">Go Namhyeon</author>
+    <content src="index.html"/>
+    <description>Catswords Community is file extension and identifier database. in Republic of Korea. since 2008.</description>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon_logo.png"/>
+    <license href="https://exts.kr/contents/eula.php">EULA</license>
+    <name>CatswordsApp</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:profile name="mobile"/>
+</widget>
