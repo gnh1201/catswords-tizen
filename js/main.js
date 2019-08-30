@@ -64,8 +64,9 @@ function writeNoData() {
 function queryData() {
 	$.ajax({
 		type: "GET",
-		url: "https://exts.kr/api/claw.php",
+		url: "https://catswords.re.kr/ep/",
 		data:{
+			"route": "extlist.index",
 			"format": "xml",
 			"q": $("#txt_keyword").val()
 		},
